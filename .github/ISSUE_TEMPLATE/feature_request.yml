@@ -1,0 +1,17 @@
+name: "✨ Feature request"
+description: 新機能の提案はこちら
+title: "[FEAT] 短い概要"
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解決したい課題
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案する解決策
+    validations:
+      required: true
