@@ -1,0 +1,23 @@
+name: "🐛 Bug report"
+description: バグ報告はこちら
+title: "[BUG] 短い概要"
+labels: ["bug", "needs triage"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 何が起きたか
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待する結果
+    validations:
+      required: true
